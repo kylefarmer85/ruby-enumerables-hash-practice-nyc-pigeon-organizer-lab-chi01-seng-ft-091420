@@ -9,6 +9,7 @@ def nyc_pigeon_organizer(data)
     end
     if !result_array[name][attributes]
       result_array[name][attributes] = []
+          binding.pry
    end
      result_array[name][attributes].push(stat_values.to_s)
    end
